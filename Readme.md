@@ -55,7 +55,7 @@ This agent is designed to run in Docker.
 1. Prerequisites
     - Docker
     - Docker Compose
-    - A reachable Smart‑Trace backend (set via `AGENT_ENDPOINT_URL`)
+    - A reachable TracerAI backend (set via `AGENT_ENDPOINT_URL`)
 
 2. Configuration (via `docker-compose.yml` or env vars)
     - `AGENT_INTERFACE` — network interface to monitor (e.g., `eth0`)
